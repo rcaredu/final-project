@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rheinfall Mist Resort | Contact</title>
+
+    <meta name="author" content="Robert Caran">
+    <meta name="description" content="Get in touch with Rheinfall Mist Resort. Book your stay, inquire about our amenities, or plan your Swiss Alps getaway. We're here to make your mountain retreat unforgettable.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@600&family=Work+Sans:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles-obf.css">
+</head>
+<body>
+<header>
+    <h1><a href="index.html">Rheinfall Mist Resort</a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Accommodations</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="contact-form">
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. <br> We are happy to help you plan your dream vacation with us!</p>
+        <p>Required fields marked with a *</p>
+
+        <div class="form-image">
+            <img src="images/Swiss%20Sunset.jpg" alt="A breathtaking sunset over the Swiss Alps, with golden light illuminating snow-capped peaks" width="710" height="270">
+        </div>
+
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="fullname">Full Name *</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <fieldset>
+                        <legend>Preferred Contact Method *</legend>
+                        <div>
+                            <input type="radio" id="contact-email" name="contact-method" value="email" required>
+                            <label for="contact-email">Email</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                            <label for="contact-phone">Phone</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comments *</label>
+                    <textarea id="comments" name="comments" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 - Rheinfall Mist Resort</p>
+    <p>This site is for educational purposes only</p>
+</footer>
+</body>
+</html>
